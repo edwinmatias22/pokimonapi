@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px;
+        }
+        #pokemonContainer {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            min-height: 200px;
+        }
+        .pokemon-image {
+            width: 150px;
+            height: 150px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokémon Search</h1>
+    <div>
+        <input type="text" id="pokemonInput" placeholder="Enter Pokémon name or ID">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="pokemonContainer">
+        <p>Search for a Pokémon to see its details here.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
